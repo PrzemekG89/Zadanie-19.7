@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: #cdcdcd;
+}
+
+.App ul {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 50px 20px;
+  background-color: #363636;
+  color: #fff;
+}
+
+.App ul li {
+  list-style-type: none;
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+
+.App ul li span {
+  font-size: 14px;
+  padding: 0 15px;
+}
+
+.App ul li button {
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 5px;
+  color: #fff;
+  margin: 0 5px;
+}
+
+.up {
+  background-color: green;
+}
+
+.down {
+  background-color: orangered;
+}
+
+.App ul li .remove {
+  background-color: #fff;
+  border: 3px solid red;
+  color: red;
+  font-weight: bold
+}
